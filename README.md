@@ -1,18 +1,18 @@
 ## Google Sheets Integration With Laravel
 ### Installation
-```console
-cd LaravelGoogleSheetsTest
-cp .env.example .env
-php artisan key:generate
+```terminal
+foo@bar:~$ cd LaravelGoogleSheetsTest
+foo@bar:~LaravelGoogleSheetsTest$ cp .env.example .env
+foo@bar:~LaravelGoogleSheetsTest$ php artisan key:generate
 
-composer require google/apiclient:"^2.0"
-php artisan cache:clear
-php artisan config:cache
+foo@bar:~LaravelGoogleSheetsTest$ composer require google/apiclient:"^2.0"
+foo@bar:~LaravelGoogleSheetsTest$ php artisan cache:clear
+foo@bar:~LaravelGoogleSheetsTest$ php artisan config:cache
 ```
 
 ### Launch HTTP Server
 ```terminal
-php artisan serve
+foo@bar:~LaravelGoogleSheetsTest$ php artisan serve
 ```
 
 
