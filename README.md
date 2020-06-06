@@ -11,6 +11,8 @@ php artisan config:cache
 ```
 
 ### Launch HTTP Server
-```console
+```terminal
 php artisan serve
 ```
+
+
