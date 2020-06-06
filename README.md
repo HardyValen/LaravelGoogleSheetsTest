@@ -16,5 +16,5 @@ foo@bar:~/LaravelGoogleSheetsTest$ php artisan serve
 ```
 
 ### Learning Source & Other Repository
-https://github.com/googleapis/google-api-php-client
-https://www.youtube.com/watch?v=iTZyuszEkxI
+* https://github.com/googleapis/google-api-php-client
+* https://www.youtube.com/watch?v=iTZyuszEkxI
