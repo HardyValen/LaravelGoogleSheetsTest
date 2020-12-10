@@ -16,7 +16,7 @@ class SheetsController extends Controller
         $service = new \Google_Service_Sheets($client);
         $spreadsheetId = "1XsMr5U1kWZ0lu8jQrUAv7yS0Zz_0MO1ux4B2d2YzJKE";
 
-        $range = "DataSheet!A1:C4";
+        $range = "PreEvent2!A1:C4";
         $response = $service->spreadsheets_values->get($spreadsheetId, $range);
         $sheets = ["dataset" => $response->getValues()];
 
